@@ -154,7 +154,8 @@ call s:Col('MatchParen', 'base1', 'orange')
 call s:Col('SpecialKey', 'base3')
 
 " Folds.
-call s:Col('Folded', 'base6', 'blue')
+call s:Col('Folded', 'base4', 'base0')
+call s:Attr('Folded', 'underline')
 call s:Col('FoldColumn', 'base5', 'base3')
 
 " Searching.
