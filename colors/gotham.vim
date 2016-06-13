@@ -115,7 +115,7 @@ call s:Col('Comment', 'base4')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
 call s:Col('Statement', 'base5')
-call s:Col('Special', 'orange')
+call s:Col('Special', 'yellow')
 call s:Col('Identifier', 'base5')
 
 " Constants, Ruby symbols.
@@ -132,7 +132,7 @@ call s:Attr('Underlined', 'underline')
 call s:Col('Type', 'orange')
 
 " Stuff like 'require' in Ruby.
-call s:Col('PreProc', 'red')
+call s:Col('PreProc', 'cyan')
 
 " Tildes on the bottom of the page.
 call s:Col('NonText', 'base4')
